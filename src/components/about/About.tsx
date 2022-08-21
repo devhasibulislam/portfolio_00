@@ -21,14 +21,14 @@ export const About = () => {
           <span className={style.highlight + " fs-4"}>02.</span> About Me
         </h1>
 
-        <Row>
+        <Row className="align-items-center">
           <Col md={6} sm={12} className="mb-lg-0 mb-4">
             <div className={style.profile_wrapper}>
               {/** <div className={style.img_border}></div>*/}
               <picture>
-                <source srcSet="/media/images/mypic.png" type="image/webp" />
+                <source srcSet="/media/images/pofo.jpg" type="image/webp" />
                 <img
-                  src="/media/images/mypic.png"
+                  src="/media/images/pofo.png"
                   className={style.profile_pic}
                   alt="my-dp"
                 />
