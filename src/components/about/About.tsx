@@ -98,6 +98,9 @@ export const About = () => {
             </div>*/}
           </Col>
         </Row>
+        <Row>
+          Hello
+        </Row>
       </main>
     </div>
   );
