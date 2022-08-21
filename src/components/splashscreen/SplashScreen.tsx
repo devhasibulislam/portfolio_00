@@ -27,7 +27,7 @@ export const SplashScreen = (props: any) => {
           <div className={style.loader_wrapper}>
             <img className={style.logo} src="/media/logos/lalogo.svg" />
             {/**<Loader /> */}
-            <h6 className={style.logo_txt + " small"}>[larch]</h6>
+            <h6 className={style.logo_txt + " small"}>[hasib]</h6>
             <h1 className={style.counter}>{count}%</h1>
           </div>
         </Col>
