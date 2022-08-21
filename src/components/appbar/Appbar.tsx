@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { useRouter } from "next/router";
 import style from "./appbar.module.css";
 import { RiExternalLinkFill } from "react-icons/ri";
-import { FaPaperPlane } from "react-icons/fa";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-scroll";
-import { FaFacebookF, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaStackOverflow, FaTwitter, FaGithub } from "react-icons/fa";
 import { routes } from "../../utils/routes";
+
 export const Appbar = () => {
   const [open, setOpen] = useState<boolean>(false);
   const [navbar, setNavbar] = useState(false);
@@ -182,7 +181,7 @@ export const Appbar = () => {
             <div className={style.sm_icon_group}>
               <div className={style.icon_container}>
                 <a
-                  href="https://www.facebook.com/Lan.Arch22/"
+                  href="https://www.facebook.com/hasibulislam999.dev/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -191,16 +190,16 @@ export const Appbar = () => {
               </div>
               <div className={style.icon_container}>
                 <a
-                  href="https://www.instagram.com/thelancethe/"
+                  href="https://stackoverflow.com/users/16820211/hasibul-islam"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaInstagram fontSize={16} />
+                  <FaStackOverflow fontSize={16} />
                 </a>
               </div>
               <div className={style.icon_container}>
                 <a
-                  href="https://twitter.com/thelancethe"
+                  href="https://twitter.com/hasibulislam999"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -209,7 +208,7 @@ export const Appbar = () => {
               </div>
               <div className={style.icon_container}>
                 <a
-                  href="https://github.com/SneakingSlayer"
+                  href="https://github.com/hasibulislam999"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
