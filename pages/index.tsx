@@ -25,32 +25,32 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Lance Endaya</title>
+        <title>Hasibul Islam</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Hi! I am Lance Endaya and I'm a Software Engineer primarily focused on enhancing your web
-                experience. I recently graduated from Malayan Colleges, MAPUA as
-                a Computer Science major."
+          content="Hi! I am Hasibul Islam and I'm a MERN Stack Developer primarily focused on enhancing your web
+                experience. I recently graduated from City University as
+                a Computer Science and Engineering major."
         />
         <meta
           name="image"
-          content="https://user-images.githubusercontent.com/78993861/153864330-acb09fc4-368c-4b3e-a68b-96300c8b08b9.PNG"
+          content="https://raw.githubusercontent.com/hasibulislam999/next-portfolio/main/public/media/images/pofo.png"
         />
 
-        <meta property="og:title" content="Lance Endaya" />
+        <meta property="og:title" content="Hasibul Islam" />
         <meta
           property="og:description"
-          content="Hi! I am Lance Endaya and I'm a Software Engineer primarily focused on enhancing your web
-                experience. I recently graduated from Malayan Colleges, MAPUA as
-                a Computer Science major."
+          content="Hi! I am Hasibul Islam and I'm a MERN Stack Developer primarily focused on enhancing your web
+                experience. I recently graduated from City University as
+                a Computer Science and Engineering major."
         />
         <meta
           property="og:image"
-          content="https://user-images.githubusercontent.com/78993861/153864330-acb09fc4-368c-4b3e-a68b-96300c8b08b9.PNG"
+          content="https://raw.githubusercontent.com/hasibulislam999/next-portfolio/main/public/media/images/pofo.png"
         />
-        <meta property="og:url" content="https://lanceendaya.vercel.app/" />
+        <meta property="og:url" content="https://pofo.hasibulislam999.vercel.app/" />
         <meta property="og:type" content="website" />
       </Head>
       {count < 97 ? (
