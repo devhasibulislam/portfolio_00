@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         />
         <meta
           name="image"
-          content="https://raw.githubusercontent.com/hasibulislam999/next-portfolio/main/public/media/images/pofo.png"
+          content="https://raw.githubusercontent.com/hasibulislam999/next-portfolio/main/public/media/images/pofothumb.png"
         />
 
         <meta property="og:title" content="Hasibul Islam" />
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:image"
-          content="https://raw.githubusercontent.com/hasibulislam999/next-portfolio/main/public/media/images/pofo.png"
+          content="https://raw.githubusercontent.com/hasibulislam999/next-portfolio/main/public/media/images/pofothumb.png"
         />
         <meta property="og:url" content="https://pofo.hasibulislam999.vercel.app/" />
         <meta property="og:type" content="website" />
