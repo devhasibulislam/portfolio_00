@@ -1,42 +1,42 @@
 export const myProjects = [
   {
-    title: "Gooly: URL Shortener",
+    title: "Luxury Living",
     description:
-      "Gooly is a uniform resource locator (URL) shortener is a tool or service that shortens the length of a URL. It primarily aims to shorten web page URLs to make them easier to memorize and track. The application can shorten long and cluttered URLs to a minimum of 7 long characters (not including the protocol, domain, and sub paths).",
-    img: "/media/images/gooly.PNG",
-    tags: ["React", "Express", "MongoDB"],
-    cta: "Visit site",
-    url: "https://goolyapp.herokuapp.com/",
-    left: true,
-  },
-  {
-    title: "Terra: Petition App",
-    description:
-      "Project T.E.R.R.A. is a proposed social media application focused on the environment that acts as an aid in addressing climate change issues.",
-    img: "/media/images/terra.jpg",
-    tags: ["Illustrator", "Photoshop"],
+      "Reinvent your luxury with luxury services that allow you to retain us with your daily life that make easier to obey your luxury through our website.",
+    img: "/media/images/luxuryliving.png",
+    tags: ["NextJS", "Express", "MongoDB", "Firebase", "DaisyUI"],
     cta: "View Project",
-    url: "https://drive.google.com/file/d/1MTdwPjhlTDqNQpPTIh31ITyvvA9G-Bd2/view?usp=sharing",
+    url: "https://llc-luxury-living-client.vercel.app/",
     left: false,
   },
   {
-    title: "Pollster: Polling app",
+    title: "Logo Tech",
     description:
-      "Pollster is a mobile polling application for organizations to create polls, gather the trends and opinions of their constituents for research purposes. This application is still under development using React Native, Express, MongoDB, and Cloudinary.",
-    img: "/media/images/pollster.png",
-    tags: ["React Native", "Express", "MongoDB"],
-    cta: "View project",
-    url: "https://github.com/SneakingSlayer/react-native-polling-app",
+      "Enhance your logo with our technology that helps you to get appropriate logo for your business. Which seamlessly grab attention of vendors.",
+    img: "/media/images/logotech.PNG",
+    tags: ["ReactJS", "Tailwind CSS", "Firebase"],
+    cta: "Visit site",
+    url: "https://logo-tech.vercel.app/",
     left: true,
   },
   {
-    title: "Instagram Web Clone",
+    title: "Creative Agency",
+    description:
+      "Recreate agencies with their user or local policy that helps them to identify with proper optimistic agency to threshold and convey user with trust.",
+    img: "/media/images/creativeagency.png",
+    tags: ["ReactJS", "Express", "MongoDB", "Firebase", "React Bootstrap"],
+    cta: "View project",
+    url: "https://creative-agency-43bbc.web.app/",
+    left: false,
+  },
+  {
+    title: "Red Onion",
     description:
       "Instagram clone built using Next JS, Typescript, and TailwindCSS. This web application was built solely for research purposes and not for any malicious intent.",
-    img: "/media/images/ig.png",
-    tags: ["Next JS", "Tailwind CSS"],
+    img: "/media/images/redonion.png",
+    tags: ["ReactJS", "React Bootstrap", "Firebase"],
     cta: "View site",
-    url: "https://instagram-web-clone-delta.vercel.app/",
-    left: false,
+    url: "https://red-onion-clinet.vercel.app/home/breakfast",
+    left: true,
   },
 ];
