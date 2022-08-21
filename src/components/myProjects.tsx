@@ -13,7 +13,7 @@ export const myProjects = [
     title: "Logo Tech",
     description:
       "Enhance your logo with our technology that helps you to get appropriate logo for your business. Which seamlessly grab attention of vendors.",
-    img: "/media/images/logotech.PNG",
+    img: "/media/images/logotech.png",
     tags: ["ReactJS", "Tailwind CSS", "Firebase"],
     cta: "Visit site",
     url: "https://logo-tech.vercel.app/",
