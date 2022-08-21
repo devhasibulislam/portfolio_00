@@ -103,5 +103,6 @@
 }
 
 .about_link:hover {
-  color: #cf6f00;
+  /* color: #cf6f00; */
+  color: #a86416;
 }

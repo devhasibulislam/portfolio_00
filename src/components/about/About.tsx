@@ -4,6 +4,8 @@ import { Row, Col } from "react-bootstrap";
 import { CgArrowLongRight } from "react-icons/cg";
 import { RiExternalLinkFill, RiGithubFill } from "react-icons/ri";
 import Link from "next/link";
+import GitHubCalendar from "react-github-calendar";
+
 import {
   SiJavascript,
   SiExpress,
@@ -98,8 +100,22 @@ export const About = () => {
             </div>*/}
           </Col>
         </Row>
-        <Row>
-          Hello
+        <Row className="bg-light justify-content-center mt-5 p-5 rounded-3">
+          <GitHubCalendar
+            username="hasibulislam999"
+            // color="#ff8800"
+            blockMargin={5}
+            blockRadius={7}
+            blockSize={14}
+            theme={{
+              level0: '#cccccc',
+              level1: '#ff8c2b',
+              level2: '#c4741a',
+              level3: '#a86416',
+              level4: '#663905'
+            }}
+            showWeekdayLabels
+          />
         </Row>
       </main>
     </div>
