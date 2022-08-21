@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { useRouter } from "next/router";
 import style from "./appbar.module.css";
 import { RiExternalLinkFill } from "react-icons/ri";
+import { FaPaperPlane } from "react-icons/fa";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-scroll";
 import { FaFacebookF, FaStackOverflow, FaTwitter, FaGithub } from "react-icons/fa";
 import { routes } from "../../utils/routes";
-
 export const Appbar = () => {
   const [open, setOpen] = useState<boolean>(false);
   const [navbar, setNavbar] = useState(false);
