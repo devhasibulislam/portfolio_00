@@ -38,13 +38,12 @@ export const About = () => {
           <Col md={6} sm={12} className="mt-lg-0 mt-4">
             <h2 className={style.subtitle}>Hasibul Islam</h2>
             <p className={style.description}>
-              Hi! My name is Hasib and I am a Front-End Web Developer from Davao
-              city Philippines. I enjoy designing and developing Web
+              Hi! My name is Hasib and I am a Front-End Web Developer from Dhaka, Bangladesh. I enjoy designing and developing Web
               Applications that are creative, eye-catching, and usable with the
               aim to ehance and ease your browsing experience.
             </p>
             <p className={style.description}>
-              I&apos;ve been working as a FreeHasib Web Developer for about a
+              I&apos;ve been working as a MERN Stack Web Developer for about a
               year using a variety of modern technologies. My primary focus is
               building or reanimating boring and complex websites.
             </p>
