@@ -100,7 +100,7 @@ export const About = () => {
             </div>*/}
           </Col>
         </Row>
-        <Row className="bg-light justify-content-center mt-5 p-5 rounded-3">
+        <Row className="bg-light justify-content-center mt-5 p-lg-5 p-md-4 p-3 rounded-3">
           <GitHubCalendar
             username="hasibulislam999"
             // color="#ff8800"
