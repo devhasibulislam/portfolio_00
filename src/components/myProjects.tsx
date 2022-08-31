@@ -1,13 +1,13 @@
 export const myProjects = [
   {
-    title: "Luxury Living",
+    title: "Red Onion",
     description:
-      "Reinvent your luxury with luxury services that allow you to retain us with your daily life that make easier to obey your luxury through our website.",
-    img: "/media/images/luxuryliving.png",
-    tags: ["NextJS", "Express", "MongoDB", "Firebase", "DaisyUI"],
+    "Instagram clone built using Next JS, Typescript, and TailwindCSS. This web application was built solely for research purposes and not for any malicious intent.",
+    img: "/media/images/redonion.png",
+    tags: ["ReactJS", "React Bootstrap", "Firebase"],
     cta: "View site",
-    url: "https://llc-luxury-living-client.vercel.app/",
-    left: false,
+    url: "https://red-onion-clinet.vercel.app/home/breakfast",
+    left: true,
   },
   {
     title: "Logo Tech",
@@ -30,13 +30,13 @@ export const myProjects = [
     left: false,
   },
   {
-    title: "Red Onion",
+    title: "Luxury Living",
     description:
-      "Instagram clone built using Next JS, Typescript, and TailwindCSS. This web application was built solely for research purposes and not for any malicious intent.",
-    img: "/media/images/redonion.png",
-    tags: ["ReactJS", "React Bootstrap", "Firebase"],
+      "Reinvent your luxury with luxury services that allow you to retain us with your daily life that make easier to obey your luxury through our website.",
+    img: "/media/images/luxuryliving.png",
+    tags: ["NextJS", "Express", "MongoDB", "Firebase", "DaisyUI"],
     cta: "View site",
-    url: "https://red-onion-clinet.vercel.app/home/breakfast",
-    left: true,
+    url: "https://llc-luxury-living-client.vercel.app/",
+    left: false,
   },
 ];
