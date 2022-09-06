@@ -100,7 +100,7 @@ export const myProjects = [
     left: false,
   },
   {
-    title: "TSC [Deprecated]",
+    title: "TSC",
     description:
       "It's a full database website base on teacher student center. Which concludes an attendance type cemetery. That allows student to add notes like do in note app and also allows to do minimally for a teacher to add or remove student.",
     img: "/media/images/teacher-student-center.jpg",
