@@ -11,8 +11,10 @@ export const Contact = () => {
   const [message, setMessage] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [status, setStatus] = useState<boolean | null>(null);
+
   const sendEmail = (e: any) => {
     e.preventDefault();
+
     setLoading(true);
     setStatus(null);
     emailjs
@@ -72,14 +74,21 @@ export const Contact = () => {
                     className={style.contact_icon}
                   />
                   <p className={style.contact_info}>
-                    <a href="mailto:hasib143sl@gmail.com" style={{color: "white"}}>hasib143sl@gmail.com</a>
+                    <a
+                      href="mailto:hasib143sl@gmail.com"
+                      style={{ color: "white" }}
+                    >
+                      hasib143sl@gmail.com
+                    </a>
                   </p>
                 </div>
 
                 <div className="d-flex align-items-center mb-3">
                   <FaPhone fontSize={24} className={style.contact_icon} />
                   <p className={style.contact_info}>
-                    <a href="tel:+880196315901" style={{color: "white"}}>+8801906-315901</a>
+                    <a href="tel:+880196315901" style={{ color: "white" }}>
+                      +8801906-315901
+                    </a>
                   </p>
                 </div>
               </div>
