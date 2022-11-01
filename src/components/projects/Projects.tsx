@@ -32,7 +32,7 @@ export const Projects = () => {
     <div className={style.projects} id="projects">
       <main className="content">
         <h1 className={style.title}>
-          <span className={style.highlight + " fs-4"}>03.</span> Swipe <span style={{fontSize: "1.5rem", color: "#ff8800"}}>left/right</span> For Projects
+          <span className={style.highlight + " fs-4"}>03.</span> My Projects <button className="btn border"><span style={{fontSize: "1.5rem", color: "#ff8800"}}>{myProjects.length}</span></button>
         </h1>
         <Carousel responsive={responsive}>
           {myProjects.map((project, key) => (
