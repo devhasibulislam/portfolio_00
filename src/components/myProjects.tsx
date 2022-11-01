@@ -285,6 +285,16 @@ export const myProjects = [
     left: true,
   },
   {
+    title: "Pharmacy Management System",
+    description:
+      "A backend project as an assignment to be given where main purpose is a complete file upload system going to be thrown as a realistic materialism. Managing store with it's full potential as it going to convey through.",
+    img: "/media/images/pharmacy-management-system.png",
+    tags: ["Postman", "NodeJS", "ES6", "LOCAL DB", "HTML5", "ExpressJS"],
+    cta: "View Project",
+    url: "https://github.com/hasibulislam999/pharmacy-management-system",
+    left: false,
+  },
+  {
     title: "SkillNao LMS Project",
     description:
       "A fullstack paid project that going to applied on a lms business topology in Bangladesh. Where student going to get advised throughout professionals and successful students that help student to build a heavy passion with more inheritance approach politely weather it's going to be filled up by the way repo won't given as per paid so as per confidential to prologuize it.",
@@ -303,6 +313,6 @@ export const myProjects = [
     ],
     cta: "View Project",
     url: "https://skillnao-csr.vercel.app/",
-    left: false,
+    left: true,
   },
 ];
